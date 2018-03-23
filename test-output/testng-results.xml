@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HomePage Test Suite" duration-ms="67932" started-at="2018-03-22T07:28:45Z" finished-at="2018-03-22T07:29:53Z">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageTest.POC_JOBSTREET_HOMEPAGE_1_001_001()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="POC_JOBSTREET_HOMEPAGE_1_001_001" class="com.test.poc.jobstreetSIT.HomePageTest"/>
+        <method signature="HomePageTest.POC_JOBSTREET_HOMEPAGE_1_001_002()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="POC_JOBSTREET_HOMEPAGE_1_001_002" class="com.test.poc.jobstreetSIT.HomePageTest"/>
+        <method signature="HomePageTest.POC_JOBSTREET_HOMEPAGE_1_001_003()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="POC_JOBSTREET_HOMEPAGE_1_001_003" class="com.test.poc.jobstreetSIT.HomePageTest"/>
+      </group> <!-- HomePage -->
+    </groups>
+    <test name="Homepage test" duration-ms="67932" started-at="2018-03-22T07:28:45Z" finished-at="2018-03-22T07:29:53Z">
+      <class name="com.test.poc.jobstreetSIT.HomePageTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="setUp" is-config="true" duration-ms="3828" started-at="2018-03-22T15:28:45Z" finished-at="2018-03-22T15:28:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e9b505]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="classInitialization()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="classInitialization" is-config="true" duration-ms="4157" started-at="2018-03-22T15:28:49Z" finished-at="2018-03-22T15:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classInitialization -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="goToHomePage" is-config="true" duration-ms="55978" started-at="2018-03-22T15:28:53Z" finished-at="2018-03-22T15:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="initAssert()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="initAssert" is-config="true" duration-ms="4" started-at="2018-03-22T15:29:49Z" finished-at="2018-03-22T15:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initAssert -->
+        <test-method status="PASS" signature="POC_JOBSTREET_HOMEPAGE_1_001_001()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="POC_JOBSTREET_HOMEPAGE_1_001_001" duration-ms="20" started-at="2018-03-22T15:29:49Z" description="Access home page" finished-at="2018-03-22T15:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POC_JOBSTREET_HOMEPAGE_1_001_001 -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="takeScreenshot" is-config="true" duration-ms="968" started-at="2018-03-22T15:29:49Z" finished-at="2018-03-22T15:29:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POC_JOBSTREET_HOMEPAGE_1_001_001 status=SUCCESS method=HomePageTest.POC_JOBSTREET_HOMEPAGE_1_001_001()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="initAssert()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="initAssert" is-config="true" duration-ms="1" started-at="2018-03-22T15:29:50Z" finished-at="2018-03-22T15:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initAssert -->
+        <test-method status="PASS" signature="POC_JOBSTREET_HOMEPAGE_1_001_002()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="POC_JOBSTREET_HOMEPAGE_1_001_002" duration-ms="75" started-at="2018-03-22T15:29:50Z" description="Verify login link is displayed" finished-at="2018-03-22T15:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POC_JOBSTREET_HOMEPAGE_1_001_002 -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="takeScreenshot" is-config="true" duration-ms="834" started-at="2018-03-22T15:29:50Z" finished-at="2018-03-22T15:29:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POC_JOBSTREET_HOMEPAGE_1_001_002 status=SUCCESS method=HomePageTest.POC_JOBSTREET_HOMEPAGE_1_001_002()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="initAssert()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="initAssert" is-config="true" duration-ms="1" started-at="2018-03-22T15:29:51Z" finished-at="2018-03-22T15:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initAssert -->
+        <test-method status="PASS" signature="POC_JOBSTREET_HOMEPAGE_1_001_003()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="POC_JOBSTREET_HOMEPAGE_1_001_003" duration-ms="57" started-at="2018-03-22T15:29:51Z" description="Verify SignUp link is displayed" finished-at="2018-03-22T15:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POC_JOBSTREET_HOMEPAGE_1_001_003 -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="takeScreenshot" is-config="true" duration-ms="830" started-at="2018-03-22T15:29:51Z" finished-at="2018-03-22T15:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POC_JOBSTREET_HOMEPAGE_1_001_003 status=SUCCESS method=HomePageTest.POC_JOBSTREET_HOMEPAGE_1_001_003()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.poc.jobstreetSIT.HomePageTest@f27fbd]" name="tearDown" is-config="true" duration-ms="1151" started-at="2018-03-22T15:29:52Z" finished-at="2018-03-22T15:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.poc.jobstreetSIT.HomePageTest -->
+    </test> <!-- Homepage test -->
+  </suite> <!-- HomePage Test Suite -->
+</testng-results>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$messages.locale.language" lang="$messages.locale.language">
+<head>
+  <title>$meta.reportTitle - $result.testContext.name</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  #if ($meta.stylesheetPath)
+  <link href="custom.css" rel="stylesheet" type="text/css" />
+  #end
+  <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+#set ($testCaseGroup = $result.testContext.getCurrentXmlTest().getParameter("test-case-group"))
+<h1>
+    #if($testCaseGroup)
+      [$testCaseGroup]
+    #end
+    $result.testContext.name</h1>
+<p>
+  $messages.getString("testDuration"): $utils.formatDuration($utils.getDuration($result.testContext))s
+</p>
+
+#set ($id = 0)
+#if ($failedConfigurations.size() > 0)
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">$messages.getString("failedConfiguration")</th></tr>
+    #set ($id = 0)
+    #foreach ($testClass in $failedConfigurations.keySet())
+      <tr class="group">
+        <td colspan="3">$testClass.name</td>
+      </tr>
+      #set ($classResults = $failedConfigurations.get($testClass))
+      #parse("org/uncommons/reportng/templates/html/class-results.html.vm")
+    #end
+
+    #if ($skippedConfigurations.size() > 0)
+      <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">$messages.getString("skippedConfiguration")</td></tr>
+      #set ($id = 0)
+      #foreach ($testClass in $skippedConfigurations.keySet())
+        <tr>
+          <td colspan="3" class="group">$testClass.name</td>
+        </tr>
+        #set ($classResults = $skippedConfigurations.get($testClass))
+        #parse ("org/uncommons/reportng/templates/html/class-results.html.vm")
+      #end
+    #end
+  </table>
+#end
+
+
+#if ($failedTests.size() > 0)
+  <table class="resultsTable">
+    <tr><th colspan="4" class="header failed">$messages.getString("failedTests")</th></tr>
+    #foreach ($testClass in $failedTests.keySet())
+      <tr>
+        <td colspan="4" class="group">$testClass.name</td>
+      </tr>
+      #set ($classResults = $failedTests.get($testClass))
+      #parse ("report/templates/html/class-results.html.vm")
+    #end
+  </table>
+#end
+
+#if ($skippedTests.size() > 0)
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Blocked Tests</th></tr>
+    #foreach ($testClass in $skippedTests.keySet())
+      <tr>
+        <td colspan="3" class="group">$testClass.name</td>
+      </tr>
+      #set ($classResults = $skippedTests.get($testClass))
+      #parse ("org/uncommons/reportng/templates/html/class-results.html.vm")
+    #end
+  </table>
+#end
+
+#if ($passedTests.size() > 0)
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">$messages.getString("passedTests")</th></tr>
+    #foreach ($testClass in $passedTests.keySet())
+      <tr>
+        <td colspan="3" class="group">$testClass.name</td>
+      </tr>
+      #set ($classResults = $passedTests.get($testClass))
+      #parse ("org/uncommons/reportng/templates/html/class-results.html.vm")
+    #end
+  </table>
+#end
+
+##  #if ($failedTests.size() > 0)
+##    <table class="resultsTable">
+##      <tr><th colspan="3" class="header failed">Failed Trial Table</th></tr>
+##      #foreach ($testClass in $failedTests.keySet())
+##          <tr>
+##          <td colspan="3" class="group" onclick="toggleElement('$testClass-instance-${velocityCount}-failed', 'table-row-group'); toggle('toggle-$testClass-instance-failed')">
+##          <span id="toggle-$testClass-instance-failed" class="toggle">&#x25bc;</span>
+##          $testClass.name</td>
+##          </tr>
+##          <tbody id="$testClass-instance-${velocityCount}-failed" class="tests">
+##          #foreach ($testClassInstance in $testClass.getInstances(true))
+##              #set ($index = $velocityCount - 1)
+##              <tr>
+##              <td colspan="3" class="test">$testClass.name [$index]</td>
+##              </tr>
+##              #set ($testResult = $failedTests.get($testClass).get($index))
+##              #parse ("org/uncommons/reportng/templates/html/SampleCustomClassResults.html.vm")
+##          #end
+##      #end
+##      </tbody>
+##    </table>
+##  #end
+##
+##  #if ($skippedTests.size() > 0)
+##    <table class="resultsTable">
+##      <tr><th colspan="3" class="header skipped">Blocked Trial Table</th></tr>
+##      #foreach ($testClass in $skippedTests.keySet())
+##          <tr>
+##          <td colspan="3" class="group" onclick="toggleElement('$testClass-instance-${velocityCount}-skipped', 'table-row-group'); toggle('toggle-$testClass-instance-skipped')">
+##          <span id="toggle-$testClass-instance-skipped" class="toggle">&#x25bc;</span>
+##          $testClass.name</td>
+##          </tr>
+##          <tbody id="$testClass-instance-${velocityCount}-skipped" class="tests">
+##          #foreach ($testClassInstance in $testClass.getInstances(true))
+##              #set ($index = $velocityCount - 1)
+##              <tr>
+##              <td colspan="3" class="test">$testClass.name [$index]</td>
+##              </tr>
+##              #set ($testResult = $skippedTests.get($testClass).get($index))
+##              #parse ("org/uncommons/reportng/templates/html/SampleCustomClassResults.html.vm")
+##          #end
+##      #end
+##      </tbody>
+##    </table>
+##  #end
+##
+##  #if ($passedTests.size() > 0)
+##    <table class="resultsTable">
+##      <tr><th colspan="3" class="header passed">Passed Trial Table</th></tr>
+##      #foreach ($testClass in $passedTests.keySet())
+##          <tr>
+##          <td colspan="3" class="group" onclick="toggleElement('$testClass-instance-${velocityCount}-passed', 'table-row-group'); toggle('toggle-$testClass-instance-passed')">
+##          <span id="toggle-$testClass-instance-passed" class="toggle">&#x25bc;</span>
+##          $testClass.name</td>
+##          </tr>
+##          <tbody id="$testClass-instance-${velocityCount}-passed" class="tests">
+##          #foreach ($testClassInstance in $testClass.getInstances(true))
+##              #set ($index = $velocityCount - 1)
+##              <tr>
+##              <td colspan="3" class="test">$testClass.name [$index]</td>
+##              </tr>
+##              #set ($testResult = $passedTests.get($testClass).get($index))
+##              #parse ("org/uncommons/reportng/templates/html/SampleCustomClassResults.html.vm")
+##          #end
+##      #end
+##      </tbody>
+##    </table>
+##  #end
+
+</body>
+</html>

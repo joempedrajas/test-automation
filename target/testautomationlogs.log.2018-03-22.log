@@ -1,0 +1,409 @@
+2018-03-22 15:17:02 INFO  TestListener:124 - S U I T E   N A M E : HomePage Test Suite started.
+2018-03-22 15:17:02 INFO  TestListener:103 - Invoked Method : setUp started.
+2018-03-22 15:17:02 INFO  BaseTest:60 - -----------------------------------------------------
+2018-03-22 15:17:06 INFO  BaseTest:78 - Driver : CHROME
+2018-03-22 15:17:06 INFO  BaseTest:79 - Grid Execution : false
+2018-03-22 15:17:06 INFO  TestListener:98 - Invoked Method : setUp completed.
+2018-03-22 15:17:06 INFO  TestListener:103 - Invoked Method : classInitialization started.
+2018-03-22 15:17:12 INFO  TestListener:98 - Invoked Method : classInitialization completed.
+2018-03-22 15:17:12 INFO  TestListener:103 - Invoked Method : goToHomePage started.
+2018-03-22 15:18:06 INFO  TestListener:98 - Invoked Method : goToHomePage completed.
+2018-03-22 15:18:06 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:18:06 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:18:06 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:18:06 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:18:06 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:18:06 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 started.
+2018-03-22 15:18:06 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 completed.
+2018-03-22 15:18:06 ERROR TestListener:89 - 
+2018-03-22 15:18:06 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:18:06 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\target\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_001.png
+2018-03-22 15:18:06 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:18:06 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:18:06 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:18:06 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:18:06 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:18:06 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:18:06 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 started.
+2018-03-22 15:18:06 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-login-button
+2018-03-22 15:18:06 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (98b69f92d4c209ef1f5b305f54e34d2d)] -> id: header-login-button]
+2018-03-22 15:18:06 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-login-button
+2018-03-22 15:18:07 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 completed.
+2018-03-22 15:18:07 ERROR TestListener:89 - 
+2018-03-22 15:18:07 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:18:07 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\target\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_002.png
+2018-03-22 15:18:07 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:18:07 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:18:07 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:18:07 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:18:07 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:18:07 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:18:07 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 started.
+2018-03-22 15:18:07 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-signup-button
+2018-03-22 15:18:07 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (98b69f92d4c209ef1f5b305f54e34d2d)] -> id: header-signup-button]
+2018-03-22 15:18:07 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-signup-button
+2018-03-22 15:18:07 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 completed.
+2018-03-22 15:18:07 ERROR TestListener:89 - 
+2018-03-22 15:18:07 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:18:08 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\target\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_003.png
+2018-03-22 15:18:08 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:18:08 INFO  TestListener:103 - Invoked Method : tearDown started.
+2018-03-22 15:18:09 INFO  TestListener:98 - Invoked Method : tearDown completed.
+2018-03-22 15:18:09 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:18:09 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:18:09 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:18:09 INFO  TestListener:111 - S U I T E   N A M E : HomePage Test Suite completed.
+2018-03-22 15:18:09 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 15:18:09 INFO  TestListener:119 - =======================================================
+2018-03-22 15:18:09 INFO  TestListener:124 - S U I T E   N A M E : allSuites started.
+2018-03-22 15:18:09 INFO  TestListener:111 - S U I T E   N A M E : allSuites completed.
+2018-03-22 15:18:09 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 15:18:09 INFO  TestListener:119 - =======================================================
+2018-03-22 15:18:09 INFO  TestListener:131 - -------------------------------------------------------
+2018-03-22 15:18:09 INFO  TestListener:132 -  R E P O R T E R   L I S T E N E R 
+2018-03-22 15:18:09 INFO  TestListener:133 - -------------------------------------------------------
+2018-03-22 15:18:09 INFO  TestListener:142 - Suite : HomePage Test Suite
+2018-03-22 15:18:09 INFO  TestListener:142 - Suite : allSuites
+2018-03-22 15:18:09 INFO  TestListener:154 - Failure Count : 0
+2018-03-22 15:18:09 INFO  TestListener:155 - Skipped Count : 0
+2018-03-22 15:18:09 INFO  TestListener:156 - Passed Count  : 3
+2018-03-22 15:18:09 INFO  TestListener:157 - Total Count   : 3
+2018-03-22 15:18:09 INFO  TestListener:168 - Defect Logging disabled.
+2018-03-22 15:18:09 INFO  TestListener:171 - JIRA status update enabled.
+2018-03-22 15:18:09 ERROR TestListener:185 - Unknown Error. 
+java.lang.IllegalArgumentException: Username may not be null
+	at org.apache.http.util.Args.notNull(Args.java:54)
+	at org.apache.http.auth.UsernamePasswordCredentials.<init>(UsernamePasswordCredentials.java:81)
+	at com.automationlabs.rest.RestCredentials.<init>(RestCredentials.java:14)
+	at com.utils.RestUtility.createExecution(RestUtility.java:65)
+	at com.utils.TestListener.createExecution(TestListener.java:214)
+	at com.utils.TestListener.generateReport(TestListener.java:172)
+	at org.testng.TestNG.generateReports(TestNG.java:1135)
+	at org.testng.TestNG.run(TestNG.java:1081)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+2018-03-22 15:18:09 INFO  TestListener:187 - -------------------------------------------------------
+2018-03-22 15:28:45 INFO  TestListener:124 - S U I T E   N A M E : HomePage Test Suite started.
+2018-03-22 15:28:45 INFO  TestListener:103 - Invoked Method : setUp started.
+2018-03-22 15:28:45 INFO  BaseTest:60 - -----------------------------------------------------
+2018-03-22 15:28:49 INFO  BaseTest:78 - Driver : CHROME
+2018-03-22 15:28:49 INFO  BaseTest:79 - Grid Execution : false
+2018-03-22 15:28:49 INFO  TestListener:98 - Invoked Method : setUp completed.
+2018-03-22 15:28:49 INFO  TestListener:103 - Invoked Method : classInitialization started.
+2018-03-22 15:28:53 INFO  TestListener:98 - Invoked Method : classInitialization completed.
+2018-03-22 15:28:53 INFO  TestListener:103 - Invoked Method : goToHomePage started.
+2018-03-22 15:29:49 INFO  TestListener:98 - Invoked Method : goToHomePage completed.
+2018-03-22 15:29:49 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:29:49 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:29:49 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:29:49 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:29:49 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:29:49 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:29:49 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:29:49 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:29:49 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 started.
+2018-03-22 15:29:49 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 completed.
+2018-03-22 15:29:49 ERROR TestListener:89 - 
+2018-03-22 15:29:49 ERROR TestListener:89 - 
+2018-03-22 15:29:49 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:29:50 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_001.png
+2018-03-22 15:29:50 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:29:50 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:29:50 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:29:50 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:29:50 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:29:50 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:29:50 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:29:50 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:29:50 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:29:50 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 started.
+2018-03-22 15:29:50 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-login-button
+2018-03-22 15:29:50 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (e5d33f1dbab95a69c9a52f8a04b5be5f)] -> id: header-login-button]
+2018-03-22 15:29:50 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-login-button
+2018-03-22 15:29:50 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 completed.
+2018-03-22 15:29:50 ERROR TestListener:89 - 
+2018-03-22 15:29:50 ERROR TestListener:89 - 
+2018-03-22 15:29:50 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:29:51 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_002.png
+2018-03-22 15:29:51 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:29:51 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:29:51 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:29:51 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:29:51 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:29:51 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:29:51 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:29:51 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:29:51 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:29:51 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 started.
+2018-03-22 15:29:51 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-signup-button
+2018-03-22 15:29:51 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (e5d33f1dbab95a69c9a52f8a04b5be5f)] -> id: header-signup-button]
+2018-03-22 15:29:51 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-signup-button
+2018-03-22 15:29:51 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 completed.
+2018-03-22 15:29:51 ERROR TestListener:89 - 
+2018-03-22 15:29:51 ERROR TestListener:89 - 
+2018-03-22 15:29:51 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:29:52 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_003.png
+2018-03-22 15:29:52 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:29:52 INFO  TestListener:103 - Invoked Method : tearDown started.
+2018-03-22 15:29:53 INFO  TestListener:98 - Invoked Method : tearDown completed.
+2018-03-22 15:29:53 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:29:53 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:29:53 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:29:53 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:29:53 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:29:53 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:29:53 INFO  TestListener:111 - S U I T E   N A M E : HomePage Test Suite completed.
+2018-03-22 15:29:53 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 15:29:53 INFO  TestListener:119 - =======================================================
+2018-03-22 15:29:53 INFO  TestListener:131 - -------------------------------------------------------
+2018-03-22 15:29:53 INFO  TestListener:132 -  R E P O R T E R   L I S T E N E R 
+2018-03-22 15:29:53 INFO  TestListener:133 - -------------------------------------------------------
+2018-03-22 15:29:53 INFO  TestListener:142 - Suite : HomePage Test Suite
+2018-03-22 15:29:53 INFO  TestListener:154 - Failure Count : 0
+2018-03-22 15:29:53 INFO  TestListener:155 - Skipped Count : 0
+2018-03-22 15:29:53 INFO  TestListener:156 - Passed Count  : 3
+2018-03-22 15:29:53 INFO  TestListener:157 - Total Count   : 3
+2018-03-22 15:29:53 INFO  TestListener:168 - Defect Logging disabled.
+2018-03-22 15:30:40 INFO  TestListener:171 - JIRA status update enabled.
+2018-03-22 15:44:02 INFO  TestListener:188 - -------------------------------------------------------
+2018-03-22 15:45:42 INFO  TestListener:124 - S U I T E   N A M E : HomePage Test Suite started.
+2018-03-22 15:45:42 INFO  TestListener:103 - Invoked Method : setUp started.
+2018-03-22 15:45:42 INFO  BaseTest:60 - -----------------------------------------------------
+2018-03-22 15:45:46 INFO  BaseTest:78 - Driver : CHROME
+2018-03-22 15:45:46 INFO  BaseTest:79 - Grid Execution : false
+2018-03-22 15:45:46 INFO  TestListener:98 - Invoked Method : setUp completed.
+2018-03-22 15:45:46 INFO  TestListener:103 - Invoked Method : classInitialization started.
+2018-03-22 15:45:53 INFO  TestListener:98 - Invoked Method : classInitialization completed.
+2018-03-22 15:45:53 INFO  TestListener:103 - Invoked Method : goToHomePage started.
+2018-03-22 15:46:29 INFO  TestListener:98 - Invoked Method : goToHomePage completed.
+2018-03-22 15:46:29 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:46:29 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:46:29 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:46:29 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:46:29 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:46:29 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:46:29 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:46:29 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:46:29 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 started.
+2018-03-22 15:46:29 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 completed.
+2018-03-22 15:46:29 ERROR TestListener:89 - 
+2018-03-22 15:46:29 ERROR TestListener:89 - 
+2018-03-22 15:46:29 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:46:30 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_001.png
+2018-03-22 15:46:30 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:46:30 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:46:30 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:46:30 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:46:30 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:46:30 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 started.
+2018-03-22 15:46:30 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-login-button
+2018-03-22 15:46:30 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (6ef9fa72a15219288fc0cd50e4514d98)] -> id: header-login-button]
+2018-03-22 15:46:30 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-login-button
+2018-03-22 15:46:30 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 completed.
+2018-03-22 15:46:30 ERROR TestListener:89 - 
+2018-03-22 15:46:30 ERROR TestListener:89 - 
+2018-03-22 15:46:30 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:46:30 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_002.png
+2018-03-22 15:46:30 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:46:30 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:46:30 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:46:30 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:46:30 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:46:30 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:46:30 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 started.
+2018-03-22 15:46:30 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-signup-button
+2018-03-22 15:46:30 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (6ef9fa72a15219288fc0cd50e4514d98)] -> id: header-signup-button]
+2018-03-22 15:46:30 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-signup-button
+2018-03-22 15:46:30 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 completed.
+2018-03-22 15:46:30 ERROR TestListener:89 - 
+2018-03-22 15:46:30 ERROR TestListener:89 - 
+2018-03-22 15:46:30 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:46:31 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_003.png
+2018-03-22 15:46:31 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:46:31 INFO  TestListener:103 - Invoked Method : tearDown started.
+2018-03-22 15:46:32 INFO  TestListener:98 - Invoked Method : tearDown completed.
+2018-03-22 15:46:32 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:46:32 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:46:32 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:46:32 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:46:32 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:46:32 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:46:32 INFO  TestListener:111 - S U I T E   N A M E : HomePage Test Suite completed.
+2018-03-22 15:46:32 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 15:46:32 INFO  TestListener:119 - =======================================================
+2018-03-22 15:46:32 INFO  TestListener:131 - -------------------------------------------------------
+2018-03-22 15:46:32 INFO  TestListener:132 -  R E P O R T E R   L I S T E N E R 
+2018-03-22 15:46:32 INFO  TestListener:133 - -------------------------------------------------------
+2018-03-22 15:46:32 INFO  TestListener:142 - Suite : HomePage Test Suite
+2018-03-22 15:46:32 INFO  TestListener:154 - Failure Count : 0
+2018-03-22 15:46:32 INFO  TestListener:155 - Skipped Count : 0
+2018-03-22 15:46:32 INFO  TestListener:156 - Passed Count  : 3
+2018-03-22 15:46:32 INFO  TestListener:157 - Total Count   : 3
+2018-03-22 15:46:32 INFO  TestListener:168 - Defect Logging disabled.
+2018-03-22 15:47:43 INFO  TestListener:171 - JIRA status update enabled.
+2018-03-22 15:51:14 INFO  TestListener:124 - S U I T E   N A M E : HomePage Test Suite started.
+2018-03-22 15:51:14 INFO  TestListener:103 - Invoked Method : setUp started.
+2018-03-22 15:51:14 INFO  BaseTest:60 - -----------------------------------------------------
+2018-03-22 15:51:18 INFO  BaseTest:78 - Driver : CHROME
+2018-03-22 15:51:18 INFO  BaseTest:79 - Grid Execution : false
+2018-03-22 15:51:18 INFO  TestListener:98 - Invoked Method : setUp completed.
+2018-03-22 15:51:18 INFO  TestListener:103 - Invoked Method : classInitialization started.
+2018-03-22 15:51:25 INFO  TestListener:98 - Invoked Method : classInitialization completed.
+2018-03-22 15:51:25 INFO  TestListener:103 - Invoked Method : goToHomePage started.
+2018-03-22 15:52:01 INFO  TestListener:98 - Invoked Method : goToHomePage completed.
+2018-03-22 15:52:01 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:52:02 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:52:02 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:52:02 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 started.
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 completed.
+2018-03-22 15:52:02 ERROR TestListener:89 - 
+2018-03-22 15:52:02 ERROR TestListener:89 - 
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:52:02 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_001.png
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:52:02 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:52:02 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:52:02 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 started.
+2018-03-22 15:52:02 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-login-button
+2018-03-22 15:52:02 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (82c94230a6cbef01fc5bc1dc1375f5e7)] -> id: header-login-button]
+2018-03-22 15:52:02 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-login-button
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 completed.
+2018-03-22 15:52:02 ERROR TestListener:89 - 
+2018-03-22 15:52:02 ERROR TestListener:89 - 
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:52:02 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_002.png
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 15:52:02 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:52:02 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 15:52:02 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 started.
+2018-03-22 15:52:02 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-signup-button
+2018-03-22 15:52:02 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (82c94230a6cbef01fc5bc1dc1375f5e7)] -> id: header-signup-button]
+2018-03-22 15:52:02 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-signup-button
+2018-03-22 15:52:02 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 completed.
+2018-03-22 15:52:02 ERROR TestListener:89 - 
+2018-03-22 15:52:02 ERROR TestListener:89 - 
+2018-03-22 15:52:02 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 15:52:03 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_003.png
+2018-03-22 15:52:03 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 15:52:03 INFO  TestListener:103 - Invoked Method : tearDown started.
+2018-03-22 15:52:04 INFO  TestListener:98 - Invoked Method : tearDown completed.
+2018-03-22 15:52:04 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:52:04 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:52:04 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:52:04 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 15:52:04 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 15:52:04 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 15:52:04 INFO  TestListener:111 - S U I T E   N A M E : HomePage Test Suite completed.
+2018-03-22 15:52:04 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 15:52:04 INFO  TestListener:119 - =======================================================
+2018-03-22 15:52:04 INFO  TestListener:131 - -------------------------------------------------------
+2018-03-22 15:52:04 INFO  TestListener:132 -  R E P O R T E R   L I S T E N E R 
+2018-03-22 15:52:04 INFO  TestListener:133 - -------------------------------------------------------
+2018-03-22 15:52:04 INFO  TestListener:142 - Suite : HomePage Test Suite
+2018-03-22 15:52:04 INFO  TestListener:154 - Failure Count : 0
+2018-03-22 15:52:04 INFO  TestListener:155 - Skipped Count : 0
+2018-03-22 15:52:04 INFO  TestListener:156 - Passed Count  : 3
+2018-03-22 15:52:04 INFO  TestListener:157 - Total Count   : 3
+2018-03-22 15:52:04 INFO  TestListener:168 - Defect Logging disabled.
+2018-03-22 15:52:16 INFO  TestListener:171 - JIRA status update enabled.
+2018-03-22 16:18:23 INFO  TestListener:124 - S U I T E   N A M E : HomePage Test Suite started.
+2018-03-22 16:18:23 INFO  TestListener:103 - Invoked Method : setUp started.
+2018-03-22 16:18:23 INFO  BaseTest:60 - -----------------------------------------------------
+2018-03-22 16:18:27 INFO  BaseTest:78 - Driver : CHROME
+2018-03-22 16:18:27 INFO  BaseTest:79 - Grid Execution : false
+2018-03-22 16:18:27 INFO  TestListener:98 - Invoked Method : setUp completed.
+2018-03-22 16:18:27 INFO  TestListener:103 - Invoked Method : classInitialization started.
+2018-03-22 16:18:34 INFO  TestListener:98 - Invoked Method : classInitialization completed.
+2018-03-22 16:18:34 INFO  TestListener:103 - Invoked Method : goToHomePage started.
+2018-03-22 16:19:11 INFO  TestListener:98 - Invoked Method : goToHomePage completed.
+2018-03-22 16:19:11 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 16:19:11 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 16:19:11 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 16:19:11 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 16:19:11 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 16:19:11 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 started.
+2018-03-22 16:19:11 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_001 completed.
+2018-03-22 16:19:11 ERROR TestListener:89 - 
+2018-03-22 16:19:11 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 16:19:11 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\target\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_001.png
+2018-03-22 16:19:11 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 16:19:11 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 16:19:11 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 16:19:11 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 16:19:11 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 16:19:11 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 16:19:11 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 started.
+2018-03-22 16:19:11 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-login-button
+2018-03-22 16:19:11 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (2bc682d9ee023b22bd9000178d6eebeb)] -> id: header-login-button]
+2018-03-22 16:19:11 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-login-button
+2018-03-22 16:19:11 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_002 completed.
+2018-03-22 16:19:11 ERROR TestListener:89 - 
+2018-03-22 16:19:11 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 16:19:12 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\target\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_002.png
+2018-03-22 16:19:12 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 16:19:12 INFO  TestListener:103 - Invoked Method : initAssert started.
+2018-03-22 16:19:12 INFO  TestListener:98 - Invoked Method : initAssert completed.
+2018-03-22 16:19:12 INFO  TestListener:48 - -------------------------------------------------------
+2018-03-22 16:19:12 INFO  TestListener:49 -  T E S T   N A M E : Homepage test Started.
+2018-03-22 16:19:12 INFO  TestListener:50 - -------------------------------------------------------
+2018-03-22 16:19:12 INFO  TestListener:103 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 started.
+2018-03-22 16:19:12 INFO  BasePage:552 - Waiting for Locator to be present : By.id: header-signup-button
+2018-03-22 16:19:12 INFO  BasePage:559 - Moving to element: [[ChromeDriver: chrome on XP (2bc682d9ee023b22bd9000178d6eebeb)] -> id: header-signup-button]
+2018-03-22 16:19:12 INFO  BasePage:547 - Waiting for Locator to be visible : By.id: header-signup-button
+2018-03-22 16:19:12 INFO  TestListener:98 - Invoked Method : POC_JOBSTREET_HOMEPAGE_1_001_003 completed.
+2018-03-22 16:19:12 ERROR TestListener:89 - 
+2018-03-22 16:19:12 INFO  TestListener:103 - Invoked Method : takeScreenshot started.
+2018-03-22 16:19:12 INFO  Utils:173 - Captured screenshot | C:\jba\workspaces\rms_ntp\IVLM\test.automation\target\test-output\HomePage Test Suite\Passed\Homepage test\POC_JOBSTREET_HOMEPAGE_1_001_003.png
+2018-03-22 16:19:12 INFO  TestListener:98 - Invoked Method : takeScreenshot completed.
+2018-03-22 16:19:12 INFO  TestListener:103 - Invoked Method : tearDown started.
+2018-03-22 16:19:14 INFO  TestListener:98 - Invoked Method : tearDown completed.
+2018-03-22 16:19:14 INFO  TestListener:55 - -------------------------------------------------------
+2018-03-22 16:19:14 INFO  TestListener:56 -  T E S T   N A M E : Homepage test Completed.
+2018-03-22 16:19:14 INFO  TestListener:57 - -------------------------------------------------------
+2018-03-22 16:19:14 INFO  TestListener:111 - S U I T E   N A M E : HomePage Test Suite completed.
+2018-03-22 16:19:14 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 16:19:14 INFO  TestListener:119 - =======================================================
+2018-03-22 16:19:14 INFO  TestListener:124 - S U I T E   N A M E : allSuites started.
+2018-03-22 16:19:14 INFO  TestListener:111 - S U I T E   N A M E : allSuites completed.
+2018-03-22 16:19:14 INFO  TestListener:113 - Copy logs into specific folder.
+2018-03-22 16:19:14 INFO  TestListener:119 - =======================================================
+2018-03-22 16:19:14 INFO  TestListener:131 - -------------------------------------------------------
+2018-03-22 16:19:14 INFO  TestListener:132 -  R E P O R T E R   L I S T E N E R 
+2018-03-22 16:19:14 INFO  TestListener:133 - -------------------------------------------------------
+2018-03-22 16:19:14 INFO  TestListener:142 - Suite : HomePage Test Suite
+2018-03-22 16:19:14 INFO  TestListener:142 - Suite : allSuites
+2018-03-22 16:19:14 INFO  TestListener:154 - Failure Count : 0
+2018-03-22 16:19:14 INFO  TestListener:155 - Skipped Count : 0
+2018-03-22 16:19:14 INFO  TestListener:156 - Passed Count  : 3
+2018-03-22 16:19:14 INFO  TestListener:157 - Total Count   : 3
+2018-03-22 16:19:14 INFO  TestListener:168 - Defect Logging disabled.
+2018-03-22 16:19:14 INFO  TestListener:171 - JIRA status update enabled.
+2018-03-22 16:19:14 INFO  TestListener:188 - -------------------------------------------------------

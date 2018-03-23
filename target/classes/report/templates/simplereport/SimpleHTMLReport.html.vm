@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$messages.locale.language" lang="$messages.locale.language">
+<head>
+	<title>$meta.reportTitle - $messages.getString("overview")</title>
+ 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <style>
+        div.suite-iterateable {
+            width: 700px;
+        }
+        table {
+            width: 700px;
+        }
+        h3 {
+            width: 500px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .green {
+        	background-color: green;
+        }
+        .red {
+        	background-color: red;
+        }
+        .yellow {
+        	background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h1>Test Results Report</h1>
+
+        <!-- Start : Iteratable specially if there are more than 2 test suites to be ran -->
+        #foreach($suite in $suites)
+        #set ($totalPassed = 0)
+		#set ($totalSkipped = 0)
+		#set ($totalFailed = 0)
+
+		#if(${suite.name} == "Drop 1 Test Suites")
+		<div class="suite-iterateable" style="display: none;">
+		#else
+        <div class="suite-iterateable">
+        #end
+            <h3>${suite.name}</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Tests</th>
+                        <th>Passed</th>
+                        <th>Failed</th>
+                        <th>Skipped</th>
+                    </tr>
+                </thead>
+                #foreach($result in $suite.results)
+                #set ($totalPassed = $totalPassed + $result.testContext.passedTests.size())
+				#set ($totalSkipped = $totalSkipped + $result.testContext.skippedTests.size())
+				#set ($totalFailed = $totalFailed + $result.testContext.failedTests.size())
+				#set ($testMethods = $result.getTestContext().getAllTestMethods())
+				#set ($passedTestMethods = $result.getTestContext().getPassedTests().getAllMethods())
+				#set ($failedTestMethods = $result.getTestContext().getFailedTests().getAllMethods())
+				#set ($skippedTestMethods = $result.getTestContext().getSkippedTests().getAllMethods())
+                <tbody class="test-iterateable">
+                    <tr>
+                        <td colspan="2"><b>Test Name: </b> ${result.testContext.name}</td>
+                        ## Count of Passed test cases
+                        #if ($result.testContext.passedTests.size() > 0)
+                       	 	<td>$result.testContext.passedTests.size()</td>
+                        #else
+					    	<td>0</td>
+					    #end
+					    ## Count of Failed test cases
+                        #if ($result.testContext.failedTests.size() > 0)
+					   	 	<td>$result.testContext.failedTests.size()</td>
+					    #else
+					   	 	<td>0</td>
+					    #end
+                        ## Count of Skipped test cases
+                        #if ($result.testContext.skippedTests.size() > 0)
+					    	<td>$result.testContext.skippedTests.size()</td>
+					    #else
+					    	<td>0</td>
+					    #end
+                    </tr>
+                    <tr>
+                    	#foreach($method in $testMethods)
+                    		#set ($className = $method.getTestClass().getName())
+                    	#end
+                        <td colspan="2"><b>Class Name: </b>$className</td>
+                        ##<td></td>
+                        ##<td></td>
+                        ##<td></td>
+                    </tr>
+ 					## Pass methods
+		            #if($passedTestMethods.size() > 0)
+			                <tr>
+			                    <th colspan="2" class="green">Passed Test Cases</th>
+			                    ##<th></th>
+			                    ##<th></th>
+			                    ##<th></th>
+			                </tr>
+			            #set($passedTestMethodsNames = [])
+			            #foreach($passedTestMethod in $passedTestMethods)
+			            	$passedTestMethodsNames.add($passedTestMethod.getMethodName())
+			            #end
+			            #foreach($passedTestMethodsName in $sorter.sort($passedTestMethodsNames))
+			                <tr class="testcase-iterateable">
+			                    <td colspan="2">$passedTestMethodsName</td>
+			                    ##<td></td>
+			                    ##<td></td>
+			                    ##<td></td>
+			                </tr>
+			            #end
+		            #end
+
+		                ## Failed Methods
+		                #if($failedTestMethods.size() > 0)
+			                <tr>
+			                    <th colspan="2" class="red">Failed Test Cases</th>
+			                    ##<th></th>
+			                    ##<th></th>
+			                    ##<th></th>
+			                </tr>
+
+						#set($failedTestMethodsNames = [])
+			            #foreach($failedTestMethod in $failedTestMethods)
+			            	$failedTestMethodsNames.add($failedTestMethod.getMethodName())
+			            #end
+			            #foreach($failedTestMethodsName in $sorter.sort($failedTestMethodsNames))
+			                <tr class="testcase-iterateable">
+			                    <td colspan="2">$failedTestMethodsName</td>
+			                    ##<td></td>
+			                    ##<td></td>
+			                    ##<td></td>
+			                </tr>
+			            #end
+		            #end
+
+		            ## Skipped Methods
+		            #if($skippedTestMethods.size() > 0)
+			                <tr>
+			                    <th colspan="2" class="yellow">Skipped Test Cases</th>
+			                    ##<th></th>
+			                    ##<th></th>
+			                    ##<th></th>
+			                </tr>
+
+						#set($skippedTestMethodsNames = [])
+			            #foreach($skippedTestMethod in $skippedTestMethods)
+			            	$skippedTestMethodsNames.add($skippedTestMethod.getMethodName())
+			            #end
+			            #foreach($skippedTestMethodsName in $sorter.sort($skippedTestMethodsNames))
+			                <tr class="testcase-iterateable">
+			                    <td colspan="2">$skippedTestMethodsName</td>
+			                    ##<td></td>
+			                    ##<td></td>
+			                    ##<td></td>
+			             	</tr>
+			        	#end
+		            #end
+                    <tr>
+                        <td colspan="5" height="22"></td>
+                    </tr>
+                </tbody>
+                #end
+                <tbody>
+                    <tr>
+                        <td colspan="2">TOTAL</td>
+                        ## Total Count of Passed test cases
+                        #if ($totalPassed > 0)
+					    	<td>$totalPassed</td>
+					    #else
+					    	<td>0</td>
+					    #end
+					    ## Total Count of Failed test cases
+                        #if ($totalFailed > 0)
+					    	<td>$totalFailed</td>
+					    #else
+					    	<td>0</td>
+					    #end
+                        ## Total Count of Skipped test cases
+                        #if ($totalSkipped > 0)
+					    	<td>$totalSkipped</td>
+					    #else
+					    	<td>0</td>
+					    #end
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        #end
+        <!-- End : Iteratable specially if there are more than 2 test suites to be ran -->
+    </div>
+</body>
+</html>

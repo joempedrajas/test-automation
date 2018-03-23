@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Jira connection Test">
+	<test name="Jira view Issue">
+		<classes>
+			<class name="poc.JiraTest"></class>
+		</classes>
+	</test>
+</suite>

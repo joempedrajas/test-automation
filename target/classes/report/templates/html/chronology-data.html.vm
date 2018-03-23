@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$messages.locale.language" lang="$messages.locale.language">
+<head>
+  <title>$meta.reportTitle - $suite.name - $messages.getString("chronology")</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  #if ($meta.stylesheetPath)
+  <link href="custom.css" rel="stylesheet" type="text/css" />
+  #end
+  <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+	<div id="meta">
+		<span id="systemInfo">
+			Chronology with Screenshot link Report v0.1 draft - junrel
+			<br>
+			<br>
+		</span>
+	</div>
+  <h1>$suite.name - chronology screenshot</h1>
+  <table class="resultsTable sortable">
+    <tr class="group">
+      <th>Test Case</th>
+      <th>Data Row</th>
+      <th>Test Condition</th>
+    </tr>
+  #foreach ($method in $methods)
+  	#if ($method.isTestMethod())
+  		#set ($testName = $method.getTestResult().getTestContext().getName())
+  		#set ($dataRow = $method.getTestResult().getAttribute("test-data-id").toString())
+  		#set ($testMethod = $method.getTestMethod().getMethodName())
+  		#set ($status = $method.getTestResult().getStatus())
+    <tr class="test">
+      <td>$testName</td>
+      <td>$dataRow</td>
+      #if ($status == 1)
+      	<td class="passed number">$testMethod</td>
+      #elseif ($status == 2)
+      	<td class="failed number">
+      	   #set ($suiteName = $method.getTestResult().getTestContext().getSuite().getName())
+      	   #if($dataRow)
+           	#set ($filename = "[$dataRow]$testMethod")
+      	   #else
+      	   	#set ($filename = $testMethod)
+      	   #end
+      	   <a href="../$suiteName/FailedScreenshots/$testName/${filename}.png">
+      	   	$testMethod
+      	   </a>
+      	</td>
+      #elseif ($status == 3)
+      	<td class="skipped number">$testMethod</td>
+      #else
+      	<td>$testMethod</td>
+      #end
+    </tr>
+    #end
+  #end
+  </table>
+</body>
+</html>

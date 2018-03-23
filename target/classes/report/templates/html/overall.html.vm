@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$messages.locale.language" lang="$messages.locale.language">
+<head>
+  <title>Overall</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <script type="text/javascript" src="reportng.js"></script>
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  #if ($meta.stylesheetPath)
+  <link href="custom.css" rel="stylesheet" type="text/css" />
+  #end
+</head>
+<body>
+	<div id="meta">
+		<span id="systemInfo">
+			Overall Report v0.1 draft - junrel
+			<br>
+			<br>
+		</span>
+	</div>
+	<h1>Overall Status</h1>
+
+	<table class="overviewTable">
+		<tbody>
+
+	    <tr>
+	    	<th colspan="7" class="header suite">Overall Status Test</th>
+	    </tr>
+	    <tr class="columnHeadings">
+	    	<th>Suites</th>
+	    	<th>Duration</th>
+	    	<th>Test Case</th>
+	    	<th nowrap="true">Test Condition</th>
+	    	<th>Passed</th>
+	    	<th>Failed</th>
+	    	<th>Blocked</th>
+	    </tr>
+
+	    ## total count for all suite
+		#set ($overallTestCase = 0)
+		#set ($overallDuration = 0)
+		#set ($overallCondition = 0)
+		#set ($overallPassed = 0)
+		#set ($overallFailed = 0)
+		#set ($overallBlocked = 0)
+
+		#foreach ($suite in $suites)
+
+		## per suite total counts
+		#set ($totalTestCondition = 0)
+		#set ($totalPassedCondition = 0)
+		#set ($totalFailedCondition = 0)
+		#set ($totalBlockedCondition = 0)
+		#set ($totalDuration = $utils.getDuration($suite))
+
+			#foreach ($testResult in $suite.getResults())
+				#set ($passed = $testResult.getTestContext().getPassedTests().size())
+				#set ($failed = $testResult.getTestContext().getFailedTests().size())
+				#set ($blocked = $testResult.getTestContext().getSkippedTests().size())
+				#set ($totalTestCondition = $totalTestCondition + $passed + $failed + $blocked)
+				#set ($totalPassedCondition = $totalPassedCondition + $passed)
+				#set ($totalFailedCondition = $totalFailedCondition + $failed)
+				#set ($totalBlockedCondition = $totalBlockedCondition + $blocked)
+			#end
+
+			#set ($overallTestCase = $overallTestCase + $suite.getResults().size())
+			#set ($overallDuration = $utils.add($overallDuration, $totalDuration) )
+			#set ($overallCondition = $overallCondition + $totalTestCondition)
+			#set ($overallPassed = $overallPassed + $totalPassedCondition)
+			#set ($overallFailed = $overallFailed + $totalFailedCondition)
+			#set ($overallBlocked = $overallBlocked + $totalBlockedCondition)
+
+			<tr class="test">
+			    <td class="test">$suite.getName()</td>
+			    <td class="duration">$utils.formatDuration($totalDuration)s</td>
+			    <td class="zero number">$suite.getResults().size()</td>
+			    <td class="zero number">$totalTestCondition</td>
+			    <td class="passed number">$totalPassedCondition</td>
+			    <td class="failed number">$totalFailedCondition</td>
+			    <td class="skipped number">$totalBlockedCondition</td>
+			</tr>
+		#end
+
+		<tr class="suite">
+			<td class="zero number" align="left">$suites.size()</td>
+			<td class="zero number duration" align="left">$utils.formatDuration($overallDuration)s</td>
+			<td class="zero number" align="right">$overallTestCase</td>
+			<td class="zero number" align="right">$overallCondition</td>
+			<td class="passed number">$overallPassed</td>
+			<td class="failed number">$overallFailed</td>
+			<td class="skipped number">$overallBlocked</td>
+		</tr>
+
+		</tbody>
+	</table>
+</body>
+</html>

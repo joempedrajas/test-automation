@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HomePage Test Suite]">
+  <parameter name="browsername" value="LocalChrome"/>
+  <listeners>
+    <listener class-name="com.utils.TestListener"/>
+    <listener class-name="com.utils.SimpleHTMLReporter"/>
+  </listeners>
+  <test name="Homepage test">
+    <parameter name="browsername" value="LocalChrome"/>
+    <classes>
+      <class name="com.test.poc.jobstreetSIT.HomePageTest"/>
+    </classes>
+  </test> <!-- Homepage test -->
+</suite> <!-- Failed suite [HomePage Test Suite] -->
