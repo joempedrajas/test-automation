@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
 
 	public void goTo(){
 		driver.get(PATH);
-		//waitForPageToLoad();
+		waitForPageToLoad();
 	}
 
 

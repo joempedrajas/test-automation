@@ -19,6 +19,7 @@ com\utils\DriverFactory$DriverTypes.class
 com\common\BasePage$4.class
 com\utils\DriverFactory.class
 com\utils\SimpleHTMLReporter.class
+com\utils\ZapiUtility.class
 com\utils\DBQueryUtil.class
 com\common\BasePage$5.class
 com\utils\Utils.class
