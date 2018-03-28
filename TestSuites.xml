@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="allSuites">
+<suite name="allSuites"  verbose="2" preserve-order="true">
 	<suite-files>
 		<suite-file path="/suites/HomePage.xml" />
 	</suite-files>

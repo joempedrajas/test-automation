@@ -186,8 +186,8 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
-					<reportsDirectory>${user.dir}/target/${testResultDirectory}_${maven.build.timestamp}</reportsDirectory>
-					<!-- <reportsDirectory>${user.dir}/target/${testResultDirectory}</reportsDirectory> -->
+					<!-- <reportsDirectory>${user.dir}/target/${testResultDirectory}_${maven.build.timestamp}</reportsDirectory> -->
+					<reportsDirectory>${user.dir}/target/${testResultDirectory}</reportsDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
