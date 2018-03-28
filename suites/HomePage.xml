@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="HomePage Test Suite">
-	<listeners>
-		<listener class-name="com.utils.TestListener"></listener>
-		<listener class-name="com.utils.SimpleHTMLReporter"></listener>
+<suite name="HomePage Test Suite" verbose="2" preserve-order="true">
+	 <listeners>
+	<!-- 	<listener class-name="com.utils.TestListener"></listener>
+		<listener class-name="com.utils.SimpleHTMLReporter"></listener> -->
+		<listener class-name="com.utils.JUnitCustomReporter"></listener>
 	</listeners>
-	<test name="Homepage test">
+	<test name="Homepage test" preserve-order="true">
 		<classes>
-			<class name="com.test.poc.jobstreetSIT.HomePageTest"></class>
+			<class name="com.test.poc.jobstreetSIT.HomePageTest">
 			<parameter name="browsername" value="LocalChrome" />
+				<methods>
+					<include name="POC_JOBSTREET_HOMEPAGE_1_001_001">
+						<parameter name="displayName" value="User login page - sucessful login" />
+					</include>
+				</methods>
+			</class>
 		</classes>
-	</test>
+	</test> <!-- Test -->
 </suite>

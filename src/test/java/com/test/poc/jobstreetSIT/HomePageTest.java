@@ -4,6 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -53,9 +54,16 @@ public class HomePageTest extends BaseTest{
 	}
 
 	@Test(groups = "HomePage", description = "Access home page")
-	public void POC_JOBSTREET_HOMEPAGE_1_001_001() throws Exception {
+	@Parameters("displayName")
+	public void POC_JOBSTREET_HOMEPAGE_1_001_001(String displayName) throws Exception {
 		s.assertTrue(homepage.isOnHomePage());
 	}
+
+	@Test(groups = "HomePage", description = "Access home page")
+	public void POC_JOBSTREET_HOMEPAGE_1_001_001_1(String displayName) throws Exception {
+		s.assertTrue(homepage.isOnHomePage());
+	}
+
 
 // 	@Test(groups = "HomePage", description = "Verify login link is displayed")
 // 	public void POC_JOBSTREET_HOMEPAGE_1_001_002() throws Exception {
