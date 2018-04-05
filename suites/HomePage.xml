@@ -14,18 +14,12 @@
 					<include name="POC_JOBSTREET_HOMEPAGE_1_001_001">
 						<parameter name="displayName" value="User login page - sucessful login" />
 					</include>
-				</methods>
-				<methods>
 					<include name="POC_JOBSTREET_HOMEPAGE_1_001_002">
 						<parameter name="displayName" value="Test2" />
 					</include>
-				</methods>
-				<methods>
 					<include name="POC_JOBSTREET_HOMEPAGE_1_001_003">
 						<parameter name="displayName" value="Test3" />
 					</include>
-				</methods>
-				<methods>
 					<include name="POC_JOBSTREET_HOMEPAGE_1_001_004">
 						<parameter name="displayName" value="Test4" />
 					</include>

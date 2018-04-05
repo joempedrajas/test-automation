@@ -285,7 +285,7 @@ public class JUnitCustomReporter extends TestListenerAdapter implements IReporte
 		  }
 
 	  protected String getFileName(Class cls) {
-		    return "TEST1111-" + cls.getName() + ".xml";
+		    return "TEST-" + cls.getName() + ".xml";
 		  }
 
 

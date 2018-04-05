@@ -60,16 +60,19 @@ public class HomePageTest extends BaseTest{
 	}
 
 	@Test(groups = "HomePage", description = "Verify login link is displayed")
+	@Parameters("displayName")
 	public void POC_JOBSTREET_HOMEPAGE_1_001_002() throws Exception {
 		s.assertTrue(homepage.isDisplayedLoginLink());
 	}
 
 	@Test(groups = "HomePage", description = "Verify SignUp link is displayed")
+	@Parameters("displayName")
 	public void POC_JOBSTREET_HOMEPAGE_1_001_003() throws Exception {
 		s.assertTrue(homepage.isDisplayedSignUpLink());
 	}
-	
+
 	@Test(groups = "HomePage", description = "Access home page")
+	@Parameters("displayName")
 	public void POC_JOBSTREET_HOMEPAGE_1_001_004(String displayName) throws Exception {
 		s.assertTrue(homepage.isOnHomePage());
 	}
