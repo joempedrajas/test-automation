@@ -122,8 +122,8 @@ public class JUnitCustomReporter extends TestListenerAdapter implements IReporte
 				}
 
 				Properties p2 = new Properties();
-				//p2.setProperty("classname", cls.getName());
-				p2.setProperty("classname", "");
+				p2.setProperty("classname", cls.getName());
+				//p2.setProperty("classname", "");
 				p2.setProperty("name", getMethodNameWithParameters(tr)); //joe edited
 				long time = tr.getEndMillis() - tr.getStartMillis();
 
